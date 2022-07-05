@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tiro Devanagari Sanskrit', serif;     
+}
+h1{
+    font-size: 50px;
+}
+.color{
+    color: orange;
+}
+.top-banner{
+    display: flex;
+}
+.one-half{
+    width: 50%;
+    padding: 5%;
+}
+
+.one-half img{
+  width: 80%;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+   font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.top-banner{
+  background-image: url(../images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.dream-big{
+    display: flex;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;\
+    
+}
+.dream-big-one{
+    width: 50%;
+    margin-top: 10%;
+}
+.dream-big-one img{
+    width: 80%;
+}
+.dream-big-two{
+    width: 50%;
+    margin-top: 10%;
+}
+.experiences-one{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 10px 20px 50px tomato;
+    border-radius: 5px;
+    border-left: 5px solid red;
+    margin: 10px 35px;
+    
+}
+.experiences-two{
+    width: 50% ;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 10px 20px 50px tomato;
+    border-radius: 5px;
+    border-left: 5px solid blue;
+    margin: 10px 35px;
+    
+}
+.exe{
+    display: flex;
+}
+.experiences {
+    
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;background-position: left;
+    
+}
+footer{
+    text-align: center;
+    margin-top: 20%;
+}
